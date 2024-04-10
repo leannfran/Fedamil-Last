@@ -2,8 +2,6 @@
 import ContactForm2 from '../components/ContactForm2';
 import { AiFillInstagram } from 'react-icons/ai';
 import { RiTiktokFill } from 'react-icons/ri';
-import { Carousel } from 'react-responsive-carousel';
-import CarouselComponent from '../components/Carousel';
 
 export default function ContactPage() {
     return (
