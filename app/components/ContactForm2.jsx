@@ -61,11 +61,13 @@ const ContactForm = () => {
         </div>
         <div className='mb-4'>
           <label htmlFor="ciudad" className="block mb-1">Ciudad:</label>
-          <Field as="select" id="ciudad" className="w-full px-3 py-2 border rounded-md" name="ciudad">
-            <option value="">Selecciona una ciudad</option>
+          {/* <Field as="select" id="ciudad" className="w-full px-3 py-2 border rounded-md" name="ciudad"> */}
+          <Field type="text" id="ciudad" className="w-full px-3 py-2 border rounded-md" name="ciudad">
+          
+          {/*   <option value="">Selecciona una ciudad</option>
             <option value="Buenos Aires">Buenos Aires</option>
             <option value="Córdoba">Córdoba</option>
-            <option value="Rosario">Rosario</option>
+            <option value="Rosario">Rosario</option> */}
           </Field>
           <ErrorMessage name="ciudad" className='mt-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative' component="div" />
         </div>
