@@ -40,7 +40,7 @@ const Hero = () => {
             </p>
             <div className="grid grid-flow-row grid-cols-1 sm:grid-cols-2 text-center">
               <a
-                href="https://api.whatsapp.com/send?phone=NUMERODETELEFONO" // Reemplaza NUMERODETELEFONO con tu número
+                href="https://wa.link/ko0u5t"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="items-center px-8 py-3 bg-amarillo text-black text-sm font-semibold rounded hover:bg-yellow-600 transition-colors duration-300 ease-in-out text-center"

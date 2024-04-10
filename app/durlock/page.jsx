@@ -65,14 +65,14 @@ export default function Page() {
             </p>
             {/* Agrega aquí más contenido o componentes si es necesario */}
             <div className="flex 2 md:hidden gap-4">
-              <a className="bg-[#FEDE02]  font-bold w-1/2 py-2 ">Cotiza</a>
-              <a className="bg-[#FEDE02] font-bold  w-1/2 py-2 ">
+              <a href="/contactus" className="bg-[#FEDE02]  font-bold w-1/2 py-2 hover:bg-azul hover:text-white">Cotiza</a>
+              <a href="https://wa.link/impnfg" target="_blank" className="bg-[#FEDE02] font-bold  w-1/2 py-2 hover:bg-azul hover:text-white">
                 Te Asesoramos
               </a>
             </div>
             <div className="md:flex hidden 2 gap-4">
-              <a className="bg-[#FEDE02]  font-bold px-4 py-2 ">Cotiza</a>
-              <a className="bg-[#FEDE02] font-bold  px-4 py-2 ">
+              <a href="/contactus" className="bg-[#FEDE02]  font-bold px-4 py-2 hover:bg-azul hover:text-white">Cotiza</a>
+              <a href="https://wa.link/impnfg" target="_blank" className="bg-[#FEDE02] font-bold  px-4 py-2 hover:bg-azul hover:text-white">
                 Te Asesoramos
               </a>
             </div>
@@ -326,7 +326,7 @@ export default function Page() {
             Contactate con nosotros y te ayudaremos a calcular que y cuantos mts
             necesitas comprar !
           </p>
-          <a href="#" className="bg-[#FEDE02] font-bold px-4 py-2 ">
+          <a href="https://wa.link/0voo2g" className="bg-[#FEDE02] font-bold px-4 py-2  hover:bg-azul hover:text-white">
             {" "}
             ASESORATE{" "}
           </a>

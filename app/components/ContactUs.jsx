@@ -7,7 +7,7 @@ const ContactUs = () => {
   return (
     <><div className="flex mx-2 items-center justify-center my-10">
     <Link
-      href="#"
+      href="/contacto"
       className="flex items-center justify-center w-full md:w-auto px-6 py-2 md:px-20 md:py-4 bg-azul border-2 border-azul text-white md:text-2xl hover:bg-white hover:text-azul transition-colors duration-300 ease-in-out rounded-full text-center"
     >
       Solicita Tu Cotización

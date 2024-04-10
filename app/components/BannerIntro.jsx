@@ -19,7 +19,7 @@ const   BannerIntro = () => {
               TODO<span className="text-black font-normal"> EL PAIS</span>                            </span>
           </h2>
            <p className="max-w-md md:mt-1 mt-10">Con nuestro camiones en un rango de 10KM a la redonda el envio es gratis, <br /><br /> A nivel nacional te podemos cotizar por privado, puedes tener acceso a nuestra amplia gama de materiales y herramientas de construcción sin importar dónde te encuentres.</p>
-          <a href="#" className="mt-4 inline-flex items-center px-8 py-1 bg-azul border-2 border-azul text-white text-sm font-semibold  hover:bg-white hover:text-azul transition-colors duration-300 ease-in-out rounded-full">
+          <a href="https://wa.link/5b2slj" target="_blank" className="mt-4 inline-flex items-center px-8 py-1 bg-azul border-2 border-azul text-white text-sm font-semibold  hover:bg-white hover:text-azul transition-colors duration-300 ease-in-out rounded-full">
             <ArrowRicon/> Consultar costo
           </a>
           

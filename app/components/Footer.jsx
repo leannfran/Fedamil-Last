@@ -38,10 +38,10 @@ const Footer = () => {
                     <p className="md:mx-4 font-extralight py-4 w-[70%]">Unimos innovación y calidad para ofrecerte los mejores materiales y servicios en cada fase de tu proyecto</p>
                     <div className="grid ms-4">
                         <div className="flex items-center space-x-4 py-4">
-                            <a href="https://www.instagram.com/tu_usuario/" target="_blank" rel="noopener noreferrer" className="text-amarillo hover:text-amarillo text-xl">
+                            <a href="https://www.instagram.com/fedamil/" target="_blank" rel="noopener noreferrer" className="text-amarillo hover:text-amarillo text-xl hover:scale-125">
                                 <AiFillInstagram className="w-8 h-8" />
                             </a>
-                            <a href="https://www.tiktok.com/@tu_usuario" target="_blank" rel="noopener noreferrer" className="text-amarillo hover:text-amarillo text-xl">
+                            <a href="https://www.tiktok.com/@tu_usuario" target="_blank" rel="noopener noreferrer" className="text-amarillo hover:text-amarillo text-xl hover:scale-125">
                                 <RiTiktokFill className="w-8 h-8" />
                             </a>
                         </div>
