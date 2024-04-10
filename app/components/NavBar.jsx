@@ -169,7 +169,7 @@ export default function NavBar() {
           <p className="font-light">(011) 3663-4592</p>
         </div>
         <div className="mt-4">
-          <Link href="/contactus" className="flex items-center border border-white justify-center text-white">
+          <Link href="/contacto" className="flex items-center border border-white justify-center text-white">
             <GrContact className="w-8 h-8 p-1 bg-amarillo" />
             <span className="bg-azul text-xs p-2 hover:underline hover:text-amarillo  hover:decoration-amarillo hover:decoration-2">
               SOLICITAR PRESUPUESTO
