@@ -59,13 +59,13 @@ const Footer = () => {
                             className="px-4 font-semiligth hover:underline hover:text-amarillo  hover:decoration-amarillo hover:decoration-2"
                         >Durlock</a></li>
                         <li><a
-                            href="#"
+                            href="/productos"
                             className="px-4 font-semiligth hover:underline hover:text-amarillo  hover:decoration-amarillo hover:decoration-2"
                         >Productos</a></li>
                         <li><a
-                            href="#"
+                            href="/empresas"
                             className="px-4 font-semiligth hover:underline hover:text-amarillo  hover:decoration-amarillo hover:decoration-2"
-                        >Nosotros</a></li>
+                        >Empresas</a></li>
                         <li><a
                             href="/contactus"
                             className="px-4 font-semiligth hover:underline hover:text-amarillo  hover:decoration-amarillo hover:decoration-2"
