@@ -9,7 +9,7 @@ import Wsp from "./components/Wsp";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "FEDAMIL - Innovación y calidad",
+  title: "FEDAMIL - Soluciones integrales en construcción",
   description: "En Fedamil, unimos innovación y calidad para ofrecerte los mejores materiales y servicios en cada fase de tu proyecto",
 };
 
