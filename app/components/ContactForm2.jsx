@@ -7,7 +7,7 @@ const ContactForm = () => {
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
     try {
       await axios.post('https://formspree.io/mwkgwkkb', values);
-      alert('Formulario enviado exitosamente!');
+      window.location.href = '/pagina-gracias-empresas';
       resetForm();
     } catch (error) {
       console.error('Error al enviar el formulario:', error);
