@@ -19,7 +19,7 @@ const Themes = () => {
     </div>
     <div className="p-4 mx-4 md:mx-0 md:col-span-7 bg-white shadow-lg -lg border-b-4 border-indigo-600 mt-4 md:mt-0">
       <p className="text-gray-700">Para empresas constructoras y arquitectos, Fedamil ofrece una amplia gama de servicios y productos para llevar a cabo proyectos de cualquier envergadura. Además de suministrar materiales de la mejor calidad, ofrecemos la posibilidad de abrir cuentas corrientes y proporcionamos asistencia técnica especializada para garantizar el éxito de tus proyectos.</p>
-      <a href="#" className="mt-4 inline-flex items-center px-8 py-1 bg-indigo-600 text-white font-semibold hover:bg-indigo-700 border-2 border-indigo-600 hover:border-indigo-700 transition-colors duration-300 ease-in-out rounded-full">
+      <a href="/empresas" className="mt-4 inline-flex items-center px-8 py-1 bg-indigo-600 text-white font-semibold hover:bg-indigo-700 border-2 border-indigo-600 hover:border-indigo-700 transition-colors duration-300 ease-in-out rounded-full">
         Colabora con nosotros
       </a>
     </div>

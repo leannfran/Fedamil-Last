@@ -25,19 +25,14 @@ const Page = () => {
             </p>
             <div className="grid grid-flow-row grid-cols-1 sm:grid-cols-2 text-center">
               <a
-                href="https://api.whatsapp.com/send?phone=NUMERODETELEFONO" // Reemplaza NUMERODETELEFONO con tu número
+                href="https://wa.link/wzn2e6" // Reemplaza NUMERODETELEFONO con tu número
                 target="_blank"
                 rel="noopener noreferrer"
                 className="items-center px-8 py-3 bg-amarillo text-black text-sm font-semibold rounded hover:bg-yellow-600 transition-colors duration-300 ease-in-out text-center"
               >
-                Atención Personalizada
+                Quiero mas información
               </a>
-              <a
-                href="/productos"
-                className="ml-0 md:ml-4 mt-4 md:mt-0 items-center px-8 py-3 bg-transparent border-2 border-black text-black text-sm font-semibold rounded hover:bg-black hover:text-white transition-colors duration-300 ease-in-out"
-              >
-                Nuestros Productos
-              </a>
+              
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -109,9 +104,19 @@ const Page = () => {
             </div>
           </div>
         </div>
-      </section>
+    <div className="flex mx-20 px-20 items-center justify-center">
 
       <FormEmpresas/>
+      <a
+                href="https://wa.link/wzn2e6" // Reemplaza NUMERODETELEFONO con tu número
+                target="_blank"
+                rel="noopener noreferrer"
+                className="items-center px-8 py-3 bg-amarillo text-black text-sm font-semibold rounded hover:bg-yellow-600 transition-colors duration-300 ease-in-out text-center"
+                >
+                Quiero mas información
+              </a>     
+                </div> </section>
+
     </div>
   );
 };

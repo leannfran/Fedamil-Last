@@ -66,7 +66,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <img
-                    src="./boticelli.jpg"
+                    src="./boticelli.png"
                     alt="fedamil"
                     className="w-[90%] rounded-md "
                   />{" "}

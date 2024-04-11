@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const imagenesCategorias = {
     'DURLOCK': '/fotos/durock.png',
-    'EOLICOS': '/fotos/eolicos.jpg',
+    'EOLICOS': '/fotos/eolicos.png',
     'CHAPAS': '/fotos/chapas.jpg',
     'HIERROS': '/fotos/hierros.png',
     'PROD. CONSTRUCCION': '/fotos/const.jpg',
@@ -20,39 +20,48 @@ const imagenesCategorias = {
   const productosFedamil = [
     { 
       categoria: 'DURLOCK', 
-      productos: ['Placas', 'Masillas', 'Perfileria', 'Sujecion', 'Cintas Tomado De Juntas', 'Más...'] 
+      productos: ['Placas', 'Masillas', 'Perfileria', 'Sujecion', 'Cintas Tomado De Juntas', 'Más...'],
+      link: "https://wa.link/mmcdej"
     },
     { 
       categoria: 'EOLICOS', 
-      productos: ['Rotativos Y Bases', 'Extractores Eólicos', 'Ventiladores de Techo Eólicos', 'Anemómetros', 'Más...'] 
+      productos: ['Rotativos Y Bases', 'Extractores Eólicos', 'Ventiladores de Techo Eólicos', 'Anemómetros', 'Más...'] ,
+      link: "https://wa.link/5vd0z2"
     },
     { 
       categoria: 'CHAPAS', 
-      productos: ['Chapas Acanaladas', 'Chapas Trapezoidales', 'Chapa Simil Teja', 'Más...'] 
+      productos: ['Chapas Acanaladas', 'Chapas Trapezoidales', 'Chapa Simil Teja', 'Más...'] ,
+      link: "https://wa.link/jl60mc"
     },
     { 
       categoria: 'HIERROS', 
-      productos: ['Angulos', 'Planchuelas', 'Planchuelas Perforadas', 'Hierros Redondos', 'Hierros Cuadrados', 'Más...'] 
+      productos: ['Angulos', 'Planchuelas', 'Planchuelas Perforadas', 'Hierros Redondos', 'Hierros Cuadrados', 'Más...'] ,
+      link: "https://wa.link/5atngu"
     },
     { 
       categoria: 'PROD. CONSTRUCCION', 
-      productos: ['Hierros Para Construccion', 'Mallas Sima', 'Varillas Corrugadas', 'Alambres de Construcción', 'Más...'] 
+      productos: ['Hierros Para Construccion', 'Mallas Sima', 'Varillas Corrugadas', 'Alambres de Construcción', 'Más...'] ,
+      link: "https://wa.link/n7b55o"
     },
     { 
       categoria: 'PINTURA', 
-      productos: ['Masillas', 'Revestimientos', 'Sinteticos', 'Galvanizados', 'Más...'] 
+      productos: ['Masillas', 'Revestimientos', 'Sinteticos', 'Galvanizados', 'Más...'] ,
+      link: "https://wa.link/bew219"
     },
     { 
       categoria: 'FERRETERIA', 
-      productos: ['Herramientas', 'Clavos y Tornillos', 'Brocas', 'Cerraduras y Candados', 'Más...'] 
+      productos: ['Herramientas', 'Clavos y Tornillos', 'Brocas', 'Cerraduras y Candados', 'Más...'] ,
+      link: "https://wa.link/57d5h3"
     },
     { 
       categoria: 'GRIFERÍA', 
-      productos: ['Grifos para lavamanos', 'Grifos para cocina', 'Grifos para ducha', 'Accesorios para grifería', 'Más...'] 
+      productos: ['Grifos para lavamanos', 'Grifos para cocina', 'Grifos para ducha', 'Accesorios para grifería', 'Más...'] ,
+      link: "https://wa.link/wdfyr2"
     },
     { 
       categoria: 'ZINGUERIA', 
-      productos: ['Canaletas', 'Bajadas', 'Accesorios para techos', 'Sombreretes', 'Ventilaciones', 'Más...'] 
+      productos: ['Canaletas', 'Bajadas', 'Accesorios para techos', 'Sombreretes', 'Ventilaciones', 'Más...'] ,
+      link: "https://wa.link/xyfb4l"
     },
   ];
   
@@ -132,7 +141,7 @@ const settings = {
                     </span>
                   ))}
                 </div>
-                <a href="#" className="inline-flex  items-center bg-[#FEDE02] text-gray-800 font-bold py-2 px-4 rounded hover:bg-[#fcd34d] transition-colors duration-200">
+                <a href={familia.link} className="inline-flex  items-center bg-[#FEDE02] text-gray-800 font-bold py-2 px-4 rounded hover:bg-[#fcd34d] transition-colors duration-200">
                   Consultar <FaAngleRight className="ml-2" />
                 </a>
               </div>
