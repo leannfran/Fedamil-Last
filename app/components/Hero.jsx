@@ -56,33 +56,33 @@ const Hero = () => {
             </div>
           </div>
           <div className="md:flex hidden  items-center p-4 justify-center w-full">
-            <div className="slider-container w-full h-full">
+            <div className="slider-container w-[90%] h-full ">
               <Slider {...settings}>
               <div  className="flex items-center justify-center h-full">                  <img
                     src="./fedamil.webp"
                     alt="fedamil"
-                    className="w-[90%] rounded-md  "
+                    className="w-[100%] rounded-md  "
                   />{" "}
                 </div>
                 <div>
                   <img
                     src="./boticelli.png"
                     alt="fedamil"
-                    className="w-[90%] rounded-md "
+                    className="w-[100%] rounded-md "
                   />{" "}
                 </div>
                 <div>
                   <img
                     src="/fotos/1.jpg"
                     alt="fedamil"
-                    className="w-[90%] rounded-md "
+                    className="w-[100%] rounded-md "
                   />{" "}
                 </div>
                 <div>
                   <img
                     src="./fotos/ferreteria.webp"
                     alt="fedamil"
-                    className="w-[90%] rounded-md "
+                    className="w-[100%] rounded-md "
                   />{" "}
                 </div>
               </Slider>
@@ -93,15 +93,13 @@ const Hero = () => {
             <div className="w-[80%]">
                 <img src="./fedamil.webp" alt="Fedamil" className=" w-full rounded-t-md" />
                 <img src="./boticelli.jpg" alt="Boticelli" className=" w-full rounded-b-md" />
-               
             </div>
           </div>
 
         </div>{" "}
       </div>
 
-
-      <Marcas/>
+      <Marcas />
 
       <div className="container mx-auto px-4 py-4 text-center grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="flex flex-col items-center">
