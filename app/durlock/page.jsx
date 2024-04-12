@@ -71,7 +71,7 @@ export default function Page() {
               </a>
             </div>
             <div className="md:flex hidden 2 gap-4">
-              <a href="/contactus" className="bg-[#FEDE02]  font-bold px-4 py-2 hover:bg-azul hover:text-white">Cotiza</a>
+              <a href="/contacto" className="bg-[#FEDE02]  font-bold px-4 py-2 hover:bg-azul hover:text-white">Cotiza</a>
               <a href="https://wa.link/i0aqua" target="_blank" className="bg-[#FEDE02] font-bold  px-4 py-2 hover:bg-azul hover:text-white">
                 Te Asesoramos
               </a>
