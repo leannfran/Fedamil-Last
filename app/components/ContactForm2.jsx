@@ -6,7 +6,7 @@ import axios from 'axios';
 const ContactForm = () => {
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
     try {
-      await axios.post('https://formspree.io/mwkgwkkb', values);
+      await axios.post('https://formspree.io/f/mrgnoowb', values);
       window.location.href = '/pagina-gracias';
       resetForm();
     } catch (error) {
