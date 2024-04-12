@@ -102,10 +102,24 @@ const settings = {
     return (
         <>
         
+        <Slider {...settings} className='mx-auto contain-content'>
+          <div>
+            <img src="/fotos/1.jpg" alt="Hero Slide 1" className="w-full object-cover " style={{ height: '50vh' }} />
+          </div>
+          <div>
+            <img src="/fotos/varios.webp" alt="Hero Slide 2" className="w-full object-cover" style={{ height: '50vh' }} />
+          </div>
+          <div>
+            <img src="/fotos/ferreteria.webp" alt="Hero Slide 3" className="w-full object-cover" style={{ height: '50vh' }} />
+          </div>
+          <div>
+            <img src="/fotos/eolicos.jpg" alt="Hero Slide 3" className="w-full object-cover" style={{ height: '50vh' }} />
+          </div>
+        </Slider>
+        
   
-        <div className="hero  md:mb-10 md:pb-16">
+        {/* <div className="md:mb-10 md:pb-16 w-[96%] mx-auto container">
         <Slider {...settings}>
-          {/* Añade tantos slides como quieras mostrar en el hero */}
           <div>
             <img src="/fotos/1.jpg" alt="Hero Slide 1" className="w-full object-cover" style={{ height: '50vh' }} />
           </div>
@@ -120,7 +134,7 @@ const settings = {
           </div>
         </Slider>
         
-      </div>
+      </div> */}
 <div className=''>
 
       <div className="container mx-auto md:px-10 py-8"><div className="text-start -4">
