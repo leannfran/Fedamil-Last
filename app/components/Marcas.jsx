@@ -31,7 +31,7 @@ const Marcas = () => {
   };
 
   return (
-    <div className="w-[98%] h-auto md:p-4">
+    <div className="contain-content h-auto md:p-4">
       <Slider {...settings}>
         {[...Array(11).keys()].map((index) => (
           <div key={index} className="px-2 flex justify-center">
