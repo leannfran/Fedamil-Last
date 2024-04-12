@@ -111,7 +111,7 @@ const Page = () => {
                 href="https://wa.link/wzn2e6" // Reemplaza NUMERODETELEFONO con tu número
                 target="_blank"
                 rel="noopener noreferrer"
-                className="items-center px-8 py-3 bg-amarillo text-black text-sm font-semibold rounded hover:bg-yellow-600 transition-colors duration-300 ease-in-out text-center"
+                className="items-center p-3 bg-amarillo text-black text-sm font-semibold rounded hover:bg-yellow-600 transition-colors duration-300 ease-in-out text-center"
                 >
                 Quiero mas información
               </a>     
