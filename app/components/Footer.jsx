@@ -90,6 +90,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <p className="text-xs">Desarrollado por <a href="http://future-agency.tech" target="_blank" rel="noopener noreferrer"> <b>FUTURE AGENCY</b></a></p>
         </div>     
            </>
 

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import NavBar from "./components/NavBar"; // Asegúrate de que la ruta sea correcta
 import Footer from "./components/Footer";
 import Wsp from "./components/Wsp";
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,8 @@ export default function RootLayout({ children }) {
         {children}
         <Wsp/>
         <Footer/>
+        <GoogleAnalytics gaId="G-3JWFBQKN1S" />
+
       </body>
     </html>
   );
