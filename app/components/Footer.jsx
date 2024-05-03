@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
 
         </div>
-        <div className="container bg-gray-100 p-4">
+        <div className="container-fluid bg-gray-100 p-4">
           
             <div className="grid grid-cols-1 md:grid-cols-3 ms-4">
                 <div className="col-span-1 py-4 indent-2">
@@ -90,7 +90,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <p className="text-xs">Desarrollado por <a href="http://future-agency.tech" target="_blank" rel="noopener noreferrer"> <b>FUTURE AGENCY</b></a></p>
+            <hr></hr>
+            <p className="text-xs pt-4">Desarrollado por <a href="http://future-agency.tech" target="_blank" rel="noopener noreferrer"> <b>FUTURE AGENCY</b></a></p>
         </div>     
            </>
 
