@@ -66,7 +66,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <img
-                    src="./boticelli.jpg"
+                    src="./boticelli.webp"
                     alt="fedamil"
                     className="w-[100%] rounded-md "
                   />{" "}
@@ -92,7 +92,7 @@ const Hero = () => {
           <div className="flex md:hidden items-center p-4 justify-center w-full">
             <div className="w-[80%]">
                 <img src="./fedamil.webp" alt="Fedamil" className=" w-full rounded-t-md" />
-                <img src="./boticelli.jpg" alt="Boticelli" className=" w-full rounded-b-md" />
+                <img src="./boticelli.webp" alt="Boticelli" className=" w-full rounded-b-md" />
             </div>
           </div>
 
