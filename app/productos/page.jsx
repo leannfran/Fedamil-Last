@@ -26,7 +26,7 @@ const productosFedamil = [
   {
     categoria: 'EOLICOS',
     productos: ['Rotativos Y Bases', 'Extractores Eólicos', 'Ventiladores de Techo Eólicos', 'Anemómetros', 'Más...'],
-    link: "https://wa.link/5vd0z2"
+    link: "https://wa.link/xyfb4l"
   },
   {
     categoria: 'CHAPAS',
