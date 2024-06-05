@@ -7,6 +7,10 @@ import Footer from "./components/Footer";
 import Wsp from "./components/Wsp";
 import { GoogleAnalytics } from '@next/third-parties/google';
 
+import { FacebookPixelEvents } from './components/pixel-events'
+import { Suspense } from 'react'
+import Head from 'next/head';
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -17,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <head>
+      <Head>
         <script dangerouslySetInnerHTML={{
         __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -25,7 +29,12 @@ export default function RootLayout({ children }) {
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-5B2V7FL6');`,
       }} />
-      </head>
+
+
+
+
+
+      </Head>
       <body className={inter.className}>
             {/* Google Tag Manager */}
       
@@ -39,7 +48,9 @@ export default function RootLayout({ children }) {
         <Wsp/>
         <Footer/>
         <GoogleAnalytics gaId="G-3JWFBQKN1S" />
-
+        <Suspense fallback={null}>
+          <FacebookPixelEvents />
+        </Suspense>
       </body>
     </html>
   );
